@@ -1,0 +1,61 @@
+.swiper {
+	width: 100vw;
+	height: 100vh;
+}
+
+.h-100vh { height: 100vh; }
+.w-100vw { width: 100vw; }
+
+.overlay-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .4);
+}
+
+.overlay-bg .source {	
+	z-index: 1;
+}
+.overlay-bg .information {	
+	z-index: 100;
+}
+
+.video-fit {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.btn-transparent-white {
+	background-color: rgba(255, 255, 255, .75);
+	color: #000000;
+}
+.btn-transparent-white:hover {
+	color: #37474f !important;
+}
+
+.btn-transparent-black {
+	background-color: rgba(0, 0, 0, .7);
+	color: #ffffff;
+}
+.btn-transparent-black:hover {
+	color: #cfd8dc !important;
+}
+
+.tds-icon {
+    background: transparent;
+    block-size: 24px;
+    content: "";
+    display: block;
+    inline-size: 24px;
+    max-inline-size: 100%;
+    min-block-size: 24px;
+    min-inline-size: 24px;
+    overflow: hidden;
+    text-indent: -9999px;
+    transition: color .33s ease,-webkit-transform .5s var(--tds-bezier);
+    transition: color .33s ease,transform .5s var(--tds-bezier);
+    transition: color .33s ease,transform .5s var(--tds-bezier),-webkit-transform .5s var(--tds-bezier);
+}
